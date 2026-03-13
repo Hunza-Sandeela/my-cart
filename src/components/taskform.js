@@ -1,6 +1,9 @@
 import {useState} from 'react'
 function TaskForm({addTask}){
     const [name, setName] = useState("")
+const [priority, setPriority] = useState("Low");
+  const [category, setCategory] = useState("Study");
+  const [completed, setCompleted] = useState(false);
     function changeHandler(e){
         setName(e.target.value)
     }
@@ -18,4 +21,4 @@ function TaskForm({addTask}){
         </>
     )
 }
-export default TaskForm
+export default TaskForm;
