@@ -14,7 +14,11 @@ const [priority, setPriority] = useState("Low");
     return (
         <>
         <form onSubmit={HandleSubmit}>
-            <label>NAME OF THE TASK </label>
+
+            <label>TASK NAME</label>
+
+            <label> TASK NAME</label>
+
         <input type='text' value={name} onChange={changeHandler}/>
  <button type="submit">Add Task</button>
         </form>
