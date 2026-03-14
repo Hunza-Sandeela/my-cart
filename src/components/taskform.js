@@ -21,4 +21,4 @@ const [priority, setPriority] = useState("Low");
         </>
     )
 }
-export default TaskForm;
+export default TaskForm
